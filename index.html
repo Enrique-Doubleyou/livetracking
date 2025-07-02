@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -66,18 +67,21 @@
     <span>##DATETIME##</span>
   </div>
 
-  <a class="button" href="https://livetrack.garmin.com/session/DEIN_LINK" target="_blank">
-    📍 Live auf Garmin verfolgen
-  </a>
+ <h2>📍 Aktuelle Live-Position</h2>
 
-  <div class="qr">
-    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://livetrack.garmin.com/session/DEIN_LINK" alt="QR-Code zum LiveTrack-Link">
-    <p style="font-size: 0.85rem; color: #666;">QR-Code zum Teilen oder Ausdrucken</p>
-  </div>
+<a class="button" href="https://livetrack.garmin.com/session/DEIN_LINK" target="_blank">
+  ➡️ LiveTrack jetzt öffnen
+</a>
 
-  <a class="button" href="https://www.komoot.com/de-de/tour/2368148567" target="_blank">
-    🌍 Komoot – Etappenkarte
-  </a>
+<div class="qr">
+  <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://livetrack.garmin.com/session/DEIN_LINK" alt="QR Garmin QR-Code">
+  <p>Scanne den QR-Code für Mobilverfolgung</p>
+</div>
+
+<hr>
+
+<h2>🗺️ Komoot-Karte: Etappenübersicht</h2>
+<iframe src="https://www.komoot.de/touren/embed?id=DEINE_KOMOOT_ID" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
 
   <div class="footer">
     Bei Verbindungsproblemen bitte Seite neu laden.<br>
