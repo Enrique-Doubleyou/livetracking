@@ -16,7 +16,7 @@ REPO_DIR = Path(__file__).resolve().parent  # Ordner mit Git-Repo
 TEMPLATE_FILE = REPO_DIR / "template.html"
 OUTPUT_FILE = REPO_DIR / "index.html"
 LINK_FILE = REPO_DIR / "garmin_link.txt"
-BANNER_FILE = REPO_DIR / "banner.jpg"
+BANNER_FILE = REPO_DIR / "banner.jpeg"
 
 # === Schritt 1: Garmin-Link & Datum laden ===
 now = datetime.datetime.now().strftime("%d.%m.%Y, %H:%M Uhr")
